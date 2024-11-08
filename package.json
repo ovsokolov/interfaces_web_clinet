@@ -1,5 +1,5 @@
 {
-  "name": "navtool-web-hid",
+  "name": "interface-web-update",
   "version": "0.2.0",
   "engines": {
     "node": "14.x"
@@ -23,13 +23,16 @@
     "redux-thunk": "^2.3.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
+    "serve": "^14.2.4",
     "vite": "^5.4.10",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "dev": "vite",
+    "start": "serve -s dist",
     "build": "vite build",
     "preview": "vite preview"
+
   },
   "eslintConfig": {
     "extends": [
