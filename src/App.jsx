@@ -19,7 +19,7 @@ function App() {
         justifyContent: "center",
         alignItems: "center"
       }}>
-          Please use supporterd desktop platforms (Chrome OS, Linux, macOS, and Windows) and latest version of supported browsers (Chrome and Edge).
+          Please use only supporterd desktop platforms (Chrome OS, Linux, macOS, and Windows) and latest version of supported browsers (Chrome and Edge).
       </div>
     );   
   }
